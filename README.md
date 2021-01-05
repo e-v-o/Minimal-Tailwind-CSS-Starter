@@ -2,6 +2,11 @@
 
 For small projects and simple static websites, this Tailwind CSS starter template comes with support for Windows users (win-node-env package).
 
+packages used:
+- tailwindcss
+- autoprefixer
+- win-node-env
+
 
 ## Get started
    
