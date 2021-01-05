@@ -1,0 +1,18 @@
+{
+  "name": "minimal-tailwind-css-starter",
+  "version": "1.0.0",
+  "description": "Basic Tailwindcss starter template for small projects and static websites",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss build ./src/styles.css -o ./dist/styles.css",
+    "prod": "NODE_ENV=production tailwindcss build ./src/styles.css -o ./dist/styles.css"
+  },
+  "keywords": [],
+  "author": "e-v-o",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "tailwindcss": "^2.0.2",
+    "win-node-env": "^0.4.0"
+  }
+}
